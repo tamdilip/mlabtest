@@ -1,0 +1,27 @@
+{
+  
+"name": "test",
+  
+"version": "1.0.0",
+  
+"main": "server.js",
+ 
+ "scripts": {
+    "start": "node server.js"
+  },
+ 
+"dependencies": {
+"express": "^4.13.3",
+    
+     "mongodb": "~2.0",
+    
+"socket.io": "1.4.5"
+  
+},
+  
+ "engines": {
+    "node": "0.12.7",
+     "npm" : ">=2.1.x"
+  },
+"license": "ISC"
+}
