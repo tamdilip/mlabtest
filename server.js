@@ -54,16 +54,6 @@ io.on('connection', function (socket) {
 
     socket.on('message', function (msg) {
 
-	  myCollection.insert({msg:msg}, function(err, doc) {
-		
-console.log('New User Registered');
-
-res.json(doc);
-
-console.log(doc);
-
-  });
-
         console.log('Message Received: ', msg);
 
         socket.broadcast.emit('message', msg);
